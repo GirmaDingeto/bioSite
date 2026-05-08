@@ -63,7 +63,7 @@ h2 {
 
 p {
 	line-height:1.6;
-	font-size:20px;
+	font-size:18px;
 }
 
 /*Simple layout styling*/
@@ -78,7 +78,7 @@ section {
 }
 #About {
 	background-color:#FFFF66;
-	text-align: center;
+	text-align: left;
 }
 #Hobby {
 	background-color:#cc99FF;
