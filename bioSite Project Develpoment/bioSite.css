@@ -11,7 +11,7 @@ header {
   text-align: center;
 }
 .navbar{display: flex; justify-content: space-between; align-items: center; padding:1rem 2rem; 
-	background-color: #FFFFFFF}
+	background-color:#AFDFB4; }
 
 .container {
 	max-width: 1000px;
@@ -83,6 +83,7 @@ section {
 #home {
 	background-color:#FFE4C4;
 	text-align: center;
+	margin: 1px;
 }
 #About {
 	background-color:#FFE4C4;
@@ -118,7 +119,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #f1f1f1;
+  background-color:#FFE4C4; 
   padding: 8px;
   text-align: center;
   z-index: 1000;

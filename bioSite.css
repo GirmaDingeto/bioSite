@@ -4,30 +4,30 @@
 
 body {
 	font-family:sans-serf;line-height:1.6;color:#333;
-	}
+	background-color:#FFE4C4;	}
 header {
   background-color:#AFDFB4;
   padding: 10px;
   text-align: center;
 }
 .navbar{display: flex; justify-content: space-between; align-items: center; padding:1rem 2rem; 
-	background-color: #FFFFFFF}
+	background-color:#AFDFB4; }
 
 .container {
 	max-width: 1000px;
 	margin: auto;
-	padding: 20px;
+	padding: 10px;
 
 }
 /* About-section*/
 .about-section {
-	background:#f4f4f4;
+	background:#FFE4C4;
 	padding: 50px 0;
 	text-align: center;
 }
 /* Hobbies-section*/
 .hobby-section {
-	background:#cc99FF;
+	background:#FFE4C4;
 	padding: 50px 0;
 	text-align: center;
 }
@@ -63,6 +63,11 @@ h2 {
 	color:#003366;
 	font-size: 40px;
 }
+ul{
+list-style-type:none;
+padding: 0;
+margin: 0;
+}
 
 p {margin-bottom: 1rem;
 	line-height:1.6;
@@ -71,25 +76,27 @@ p {margin-bottom: 1rem;
 
 /*Simple layout styling*/
 section {
-	padding:40px;
+	padding:10px;
 	line-height:1.6;
 	font-family:sans-serf;
 }
 #home {
-	background-color:#FFF4A3;
+	background-color:#FFE4C4;
 	text-align: center;
+	margin: 1px;
 }
 #About {
 	background-color:#FFE4C4;
 	text-align: left;
 }
 #Hobby {
-	background-color:#FFF4A3;
+	background-color:#FFE4C4;
+
 	text-align: center;
 }
 
 .gallery-images img {
-max-width: 500px;
+max-width: 600px;
 height:auto;}
 h2{
 	color: #2c3e50;
@@ -101,8 +108,9 @@ div.flex-container {
   flex-direction: row;
 }
 
-div.flex-container > div {
-  margin: 10px;
+div.flex-container 
+ div{
+  margin: 1px;
 }
 
 /* Style the footer */
@@ -111,7 +119,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #f1f1f1;
+  background-color:#FFE4C4; 
   padding: 8px;
   text-align: center;
   z-index: 1000;
